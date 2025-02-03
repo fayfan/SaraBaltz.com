@@ -57,6 +57,7 @@ const footerNavigation = {
         },
     ],
 };
+const pdfUrl = "../../public/resume.pdf"
 
 export default function Resume() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -157,18 +158,11 @@ export default function Resume() {
                         className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white ring-1 shadow-xl shadow-blue-600/10 ring-blue-50 sm:-mr-80 lg:-mr-96"
                     />
                     <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
-                        <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-8 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-                            <h1 style={{ color: 'cornflowerblue' }} className="max-w-2xl text-5xl font-semibold tracking-tight text-balance sm:text-7xl lg:col-span-2 xl:col-auto">
+                        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none ">
+                            <h1 style={{ color: 'cornflowerblue' }} className="max-w-2xl text-5xl font-semibold tracking-tight text-balance sm:text-7xl ">
                                 Resume
                             </h1>
-                            <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-                                <p className="text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-                                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                                    qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                                    occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non
-                                    deserunt sunt. Qui irure qui lorem cupidatat commodo.
-                                </p>
-                            </div>
+                            <iframe className='mx-auto mt-6' src={pdfUrl} width="100%" height="1125px" style={{ resize: "both", overflow: "auto" }} ></iframe>
                         </div>
                     </div>
                     <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-linear-to-t from-white sm:h-32" />
