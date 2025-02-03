@@ -74,7 +74,7 @@ export default function Contact() {
                             <span className="sr-only">Sara Baltz</span>
                             <img
                                 alt="Logo"
-                                src="https://tailwindui.com/plus/img/logos/mark.svg?color=blue&shade=200"
+                                src="../personal-logo.png"
                                 className="h-8 w-auto"
                             />
                         </a>
@@ -112,10 +112,10 @@ export default function Contact() {
                     <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                         <div className="flex items-center justify-between">
                             <a href="/" className="-m-1.5 p-1.5">
-                                <span className="sr-only">Your Company</span>
+                                <span className="sr-only">Sara Baltz</span>
                                 <img
                                     alt="Logo"
-                                    src="https://tailwindui.com/plus/img/logos/mark.svg?color=blue&shade=200"
+                                    src="../personal-logo.png"
                                     className="h-8 w-auto"
                                 />
                             </a>
@@ -156,7 +156,7 @@ export default function Contact() {
                         aria-hidden="true"
                         className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white ring-1 shadow-xl shadow-blue-600/10 ring-blue-50 sm:-mr-80 lg:-mr-96"
                     />
-                    <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
+                    <div className="mx-auto max-w-7xl px-6 py-24 sm:py-30 lg:px-8">
                         <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-8 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                             <h1 style={{ color: 'cornflowerblue' }} className="max-w-2xl text-5xl font-semibold tracking-tight text-balance sm:text-7xl lg:col-span-2 xl:col-auto">
                                 Contact
@@ -203,7 +203,7 @@ export default function Contact() {
             </main>
 
             {/* Footer */}
-            <footer className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+            <footer className="mx-auto mt-24 max-w-7xl px-6 sm:mt-30 lg:px-8">
                 <div className="border-t border-gray-900/10 pt-20 pb-8 sm:pt-24">
                     <div className="xl:grid xl:grid-cols-1 xl:gap-8">
                         <div className="grid grid-cols-1 gap-8 xl:col-span-2">
@@ -228,7 +228,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-24">
+                    <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-15 md:flex md:items-center md:justify-between lg:mt-18">
                         <div className="flex gap-x-6 md:order-2">
                             {footerNavigation.social.map(item => (
                                 <a
