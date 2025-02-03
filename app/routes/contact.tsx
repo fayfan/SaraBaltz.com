@@ -8,70 +8,6 @@ const navigation = [
     { name: 'Resume', href: '/resume' },
     { name: 'Contact', href: '/contact' },
 ];
-const timeline = [
-    {
-        name: 'UT Dallas – Neuroscience, B.S.',
-        date: 'Aug 2016 – May 2020',
-        dateTime: '2020-05',
-    },
-    {
-        name: 'Fort Bend Neurology – Medical Administrative Assistant',
-        description:
-            'Conducted a variety of patient care, coordination, & business tasks',
-        date: 'Aug 2020 – May 2021',
-        dateTime: '2020-08',
-    },
-    {
-        name: 'UNT Health Science Center – Clinical Research Management, M.S.',
-        description:
-            'Thesis: Cost Analysis of Robotic Exoskeletons For Use in Inpatient Rehabilitation Post-Spinal Cord Injury (CARE4U In Rehab Post-SCI)',
-        date: 'Jun 2021 – May 2023',
-        dateTime: '2021-06',
-    },
-    {
-        name: 'BSW Institute for Rehabilitation – Internship',
-        description:
-            'Completed in fulfillment of graduate degree requirements',
-        date: 'Jun 2022 – May 2023',
-        dateTime: '2022-06',
-    },
-    {
-        name: 'BSW Institute for Rehabilitation – Clinical Research Coordinator 1',
-        description:
-            'Coordinated various clinical studies & maintained departmental databases',
-        date: 'Feb 2023 – Sept 2024',
-        dateTime: '2023-02',
-    },
-];
-const jobOpenings = [
-    {
-        id: 1,
-        role: 'Full-time designer',
-        href: '#',
-        description:
-            'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
-        salary: '$75,000 USD',
-        location: 'San Francisco, CA',
-    },
-    {
-        id: 2,
-        role: 'Laravel developer',
-        href: '#',
-        description:
-            'Et veniam et officia dolorum rerum. Et voluptas consequatur magni sapiente amet voluptates dolorum. Ut porro aut eveniet.',
-        salary: '$125,000 USD',
-        location: 'San Francisco, CA',
-    },
-    {
-        id: 3,
-        role: 'React Native developer',
-        href: '#',
-        description:
-            'Veniam ipsam nisi quas architecto eos non voluptatem in nemo. Est occaecati nihil omnis delectus illum est.',
-        salary: '$105,000 USD',
-        location: 'San Francisco, CA',
-    },
-];
 const footerNavigation = {
     company: [
         { name: 'About', href: '/#top' },
@@ -108,7 +44,7 @@ const footerNavigation = {
         },
         {
             name: 'Email',
-            href: 'mailto:sbaltz98@gmail.com',
+            href: 'mailto:sara@sarabaltz.com',
             icon: (props: any) => (
                 <svg fill="currentColor" viewBox="0 -1 20 22" {...props}>
                     <path
@@ -234,10 +170,10 @@ export default function Contact() {
                                                 LinkedIn: <a href="https://www.linkedin.com/in/sarabaltz/" className="hover:text-blue-50" >linkedin.com/in/sarabaltz</a>
                                             </p>
                                             <p className="text-white mt-6 mx-auto max-w-2xl text-xl font-bold tracking-tight sm:text-2xl">
-                                                Email: <a href="mailto:sbaltz98@gmail.com" className="hover:text-blue-50">sbaltz98@gmail.com</a>
+                                                Email: <a href="mailto:sara@sarabaltz.com" className="hover:text-blue-50">sara@sarabaltz.com</a>
                                             </p>
                                             <p className="text-white mt-6 mx-auto max-w-2xl text-xl font-bold tracking-tight sm:text-2xl">
-                                                Phone: <a href="tel:+1##########" className="hover:text-blue-50">(###) ###-####</a>
+                                                Phone: <a href="tel:+17655056148" className="hover:text-blue-50">(765) 505-6148</a>
                                             </p>
                                             <div
                                                 aria-hidden="true"

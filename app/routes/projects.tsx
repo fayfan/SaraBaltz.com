@@ -108,7 +108,7 @@ const footerNavigation = {
         },
         {
             name: 'Email',
-            href: 'mailto:sbaltz98@gmail.com',
+            href: 'mailto:sara@sarabaltz.com',
             icon: (props: any) => (
                 <svg fill="currentColor" viewBox="0 -1 20 22" {...props}>
                     <path
