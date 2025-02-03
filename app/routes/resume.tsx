@@ -57,7 +57,7 @@ const footerNavigation = {
         },
     ],
 };
-const pdfUrl = "../../public/resume.pdf"
+const pdfUrl = "../resume.pdf"
 
 export default function Resume() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
