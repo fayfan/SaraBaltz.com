@@ -127,6 +127,14 @@ const route0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: root,
   links
 }, Symbol.toStringTag, { value: "Module" }));
+function meta$3({}) {
+  return [{
+    title: "Sara Baltz - About"
+  }, {
+    name: "description",
+    content: "Welcome to my website!"
+  }];
+}
 const navigation$3 = [{
   name: "About",
   href: "/"
@@ -914,8 +922,17 @@ const about = withComponentProps(function About() {
 });
 const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  default: about
+  default: about,
+  meta: meta$3
 }, Symbol.toStringTag, { value: "Module" }));
+function meta$2({}) {
+  return [{
+    title: "Sara Baltz - Projects"
+  }, {
+    name: "description",
+    content: "Check out my projects!"
+  }];
+}
 const navigation$2 = [{
   name: "About",
   href: "/"
@@ -1634,8 +1651,17 @@ const projects = withComponentProps(function Projects() {
 });
 const route2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  default: projects
+  default: projects,
+  meta: meta$2
 }, Symbol.toStringTag, { value: "Module" }));
+function meta$1({}) {
+  return [{
+    title: "Sara Baltz - Resume"
+  }, {
+    name: "description",
+    content: "Have a look at my resume!"
+  }];
+}
 const navigation$1 = [{
   name: "About",
   href: "/"
@@ -1893,8 +1919,17 @@ const resume = withComponentProps(function Resume() {
 });
 const route3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  default: resume
+  default: resume,
+  meta: meta$1
 }, Symbol.toStringTag, { value: "Module" }));
+function meta({}) {
+  return [{
+    title: "Sara Baltz - Contact"
+  }, {
+    name: "description",
+    content: "Let's get in touch!"
+  }];
+}
 const navigation = [{
   name: "About",
   href: "/"
@@ -2188,9 +2223,10 @@ const contact = withComponentProps(function Contact() {
 });
 const route4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  default: contact
+  default: contact,
+  meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-lXDMAOaW.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-BI3FKWtl.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js", "/assets/with-props-Vsvj35UN.js"], "css": ["/assets/root-DC5BRhn8.css"] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-D5Me3QH2.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/projects": { "id": "routes/projects", "parentId": "root", "path": "/projects", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/projects-CWbgUkMm.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/resume": { "id": "routes/resume", "parentId": "root", "path": "/resume", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/resume-52kd3plT.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-BkB9cjBO.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] } }, "url": "/assets/manifest-93291b96.js", "version": "93291b96" };
+const serverManifest = { "entry": { "module": "/assets/entry.client-lXDMAOaW.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-DJoZ7Dfr.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js", "/assets/with-props-Vsvj35UN.js"], "css": ["/assets/root-DDufRQPE.css"] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-BGRvW0hz.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/projects": { "id": "routes/projects", "parentId": "root", "path": "/projects", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/projects-Ba7h1q-S.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/resume": { "id": "routes/resume", "parentId": "root", "path": "/resume", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/resume-DhN6uiRT.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-Bs7vVrOG.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] } }, "url": "/assets/manifest-63bd7702.js", "version": "63bd7702" };
 const assetsBuildDirectory = "build/client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false };
