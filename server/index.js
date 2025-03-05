@@ -1214,8 +1214,8 @@ const projects = withComponentProps(function Projects() {
                   autoPlay: true,
                   loop: true,
                   muted: true,
-                  src: "./arkbites-video.mp4",
-                  className: "w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                  src: "../arkbites-video.mp4",
+                  className: "w-[37rem] max-w-none rounded-2xl object-cover"
                 })
               }), /* @__PURE__ */ jsxs("div", {
                 className: "contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8",
@@ -1223,21 +1223,21 @@ const projects = withComponentProps(function Projects() {
                   className: "order-first flex w-64 flex-none justify-end self-end lg:w-auto",
                   children: /* @__PURE__ */ jsx("img", {
                     alt: "Arkbites Screenshot 2",
-                    src: "./arkbites-screenshot-2.png",
+                    src: "../arkbites-screenshot-2.png",
                     className: "w-[24rem] max-w-none flex-none rounded-2xl object-cover"
                   })
                 }), /* @__PURE__ */ jsx("div", {
                   className: "flex w-96 flex-auto justify-end lg:w-auto lg:flex-none",
                   children: /* @__PURE__ */ jsx("img", {
                     alt: "Arkbites Screenshot 1",
-                    src: "./arkbites-screenshot-1.png",
-                    className: "w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                    src: "../arkbites-screenshot-1.png",
+                    className: "w-[37rem] max-w-none flex-none rounded-2xl object-cover"
                   })
                 }), /* @__PURE__ */ jsx("div", {
                   className: "hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none",
                   children: /* @__PURE__ */ jsx("img", {
                     alt: "Arkbites Logo",
-                    src: "./arkbites-logo.png",
+                    src: "../arkbites-logo.png",
                     className: "w-[24rem] max-w-none object-cover"
                   })
                 })]
@@ -1374,8 +1374,8 @@ const projects = withComponentProps(function Projects() {
                   autoPlay: true,
                   loop: true,
                   muted: true,
-                  src: "./museic-video.mp4",
-                  className: "w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                  src: "../museic-video.mp4",
+                  className: "w-[37rem] max-w-none rounded-2xl object-cover"
                 })
               }), /* @__PURE__ */ jsxs("div", {
                 className: "contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8",
@@ -1383,21 +1383,21 @@ const projects = withComponentProps(function Projects() {
                   className: "order-first flex w-64 flex-none justify-end self-end lg:w-auto",
                   children: /* @__PURE__ */ jsx("img", {
                     alt: "Museic Screenshot 2",
-                    src: "./museic-screenshot-2.png",
+                    src: "../museic-screenshot-2.png",
                     className: "w-[24rem] max-w-none flex-none rounded-2xl object-cover"
                   })
                 }), /* @__PURE__ */ jsx("div", {
                   className: "flex w-96 flex-auto justify-end lg:w-auto lg:flex-none",
                   children: /* @__PURE__ */ jsx("img", {
                     alt: "Museic Screenshot 1",
-                    src: "./museic-screenshot-1.png",
-                    className: "w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                    src: "../museic-screenshot-1.png",
+                    className: "w-[37rem] max-w-none flex-none rounded-2xl object-cover"
                   })
                 }), /* @__PURE__ */ jsx("div", {
                   className: "hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none",
                   children: /* @__PURE__ */ jsx("img", {
                     alt: "Museic Logo",
-                    src: "./museic-logo.png",
+                    src: "../museic-logo.png",
                     className: "w-[24rem] max-w-none object-cover"
                   })
                 })]
@@ -1533,8 +1533,8 @@ const projects = withComponentProps(function Projects() {
                   autoPlay: true,
                   loop: true,
                   muted: true,
-                  src: "./ryokanvas-video.mp4",
-                  className: "w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                  src: "../ryokanvas-video.mp4",
+                  className: "w-[37rem] max-w-none rounded-2xl object-cover"
                 })
               }), /* @__PURE__ */ jsxs("div", {
                 className: "contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8",
@@ -1542,21 +1542,21 @@ const projects = withComponentProps(function Projects() {
                   className: "order-first flex w-64 flex-none justify-end self-end lg:w-auto",
                   children: /* @__PURE__ */ jsx("img", {
                     alt: "RyoKanvas Screenshot 2",
-                    src: "./ryokanvas-screenshot-2.png",
+                    src: "../ryokanvas-screenshot-2.png",
                     className: "w-[24rem] max-w-none flex-none rounded-2xl object-cover"
                   })
                 }), /* @__PURE__ */ jsx("div", {
                   className: "flex w-96 flex-auto justify-end lg:w-auto lg:flex-none",
                   children: /* @__PURE__ */ jsx("img", {
                     alt: "RyoKanvas Screenshot 1",
-                    src: "./ryokanvas-screenshot-1.png",
-                    className: "w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                    src: "../ryokanvas-screenshot-1.png",
+                    className: "w-[37rem] max-w-none flex-none rounded-2xl object-cover"
                   })
                 }), /* @__PURE__ */ jsx("div", {
                   className: "hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none",
                   children: /* @__PURE__ */ jsx("img", {
                     alt: "RyoKanvas Logo",
-                    src: "./ryokanvas-logo.png",
+                    src: "../ryokanvas-logo.png",
                     className: "w-[24rem] max-w-none rounded-2xl object-cover"
                   })
                 })]
@@ -1693,7 +1693,7 @@ const footerNavigation$1 = {
     })
   }]
 };
-const pdfUrl = "./Sara_Baltz_Resume.pdf";
+const pdfUrl = "../Sara_Baltz_Resume.pdf";
 const resume = withComponentProps(function Resume() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return /* @__PURE__ */ jsxs("div", {
@@ -2179,7 +2179,7 @@ const route4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   __proto__: null,
   default: contact
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-lXDMAOaW.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-CoRF5s7Z.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js", "/assets/with-props-Vsvj35UN.js"], "css": ["/assets/root-BODM8VbE.css"] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-_wo-fDw7.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/projects": { "id": "routes/projects", "parentId": "root", "path": "/projects", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/projects-C3vE2eyS.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/resume": { "id": "routes/resume", "parentId": "root", "path": "/resume", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/resume-BkiYT-9d.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-BkB9cjBO.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] } }, "url": "/assets/manifest-a9dc17d4.js", "version": "a9dc17d4" };
+const serverManifest = { "entry": { "module": "/assets/entry.client-lXDMAOaW.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-BI3FKWtl.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js", "/assets/with-props-Vsvj35UN.js"], "css": ["/assets/root-DC5BRhn8.css"] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-_wo-fDw7.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/projects": { "id": "routes/projects", "parentId": "root", "path": "/projects", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/projects-CoEOZcsl.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/resume": { "id": "routes/resume", "parentId": "root", "path": "/resume", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/resume-52kd3plT.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-BkB9cjBO.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] } }, "url": "/assets/manifest-fdf192d6.js", "version": "fdf192d6" };
 const assetsBuildDirectory = "build/client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false };
