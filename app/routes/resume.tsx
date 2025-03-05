@@ -57,7 +57,7 @@ const footerNavigation = {
         },
     ],
 };
-const pdfUrl = "./Sara_Baltz_Resume.pdf"
+const pdfUrl = "../Sara_Baltz_Resume.pdf"
 
 export default function Resume() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

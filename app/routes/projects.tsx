@@ -8,35 +8,6 @@ const navigation = [
     { name: 'Resume', href: '/resume' },
     { name: 'Contact', href: '/contact' },
 ];
-const jobOpenings = [
-    {
-        id: 1,
-        role: 'Full-time designer',
-        href: '#',
-        description:
-            'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
-        salary: '$75,000 USD',
-        location: 'San Francisco, CA',
-    },
-    {
-        id: 2,
-        role: 'Laravel developer',
-        href: '#',
-        description:
-            'Et veniam et officia dolorum rerum. Et voluptas consequatur magni sapiente amet voluptates dolorum. Ut porro aut eveniet.',
-        salary: '$125,000 USD',
-        location: 'San Francisco, CA',
-    },
-    {
-        id: 3,
-        role: 'React Native developer',
-        href: '#',
-        description:
-            'Veniam ipsam nisi quas architecto eos non voluptatem in nemo. Est occaecati nihil omnis delectus illum est.',
-        salary: '$105,000 USD',
-        location: 'San Francisco, CA',
-    },
-];
 const footerNavigation = {
     company: [
         { name: 'About', href: '/#top' },
@@ -245,27 +216,27 @@ export default function Projects() {
                             </div>
                             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                                    <video autoPlay loop muted src='./arkbites-video.mp4' className="w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+                                    <video autoPlay loop muted src='../arkbites-video.mp4' className="w-[37rem] max-w-none rounded-2xl object-cover" />
                                 </div>
                                 <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                                     <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                                         <img
                                             alt="Arkbites Screenshot 2"
-                                            src="./arkbites-screenshot-2.png"
+                                            src="../arkbites-screenshot-2.png"
                                             className="w-[24rem] max-w-none flex-none rounded-2xl object-cover"
                                         />
                                     </div>
                                     <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                                         <img
                                             alt="Arkbites Screenshot 1"
-                                            src="./arkbites-screenshot-1.png"
-                                            className="w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                                            src="../arkbites-screenshot-1.png"
+                                            className="w-[37rem] max-w-none flex-none rounded-2xl object-cover"
                                         />
                                     </div>
                                     <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                                         <img
                                             alt="Arkbites Logo"
-                                            src="./arkbites-logo.png"
+                                            src="../arkbites-logo.png"
                                             className="w-[24rem] max-w-none object-cover"
                                         />
                                     </div>
@@ -327,27 +298,27 @@ export default function Projects() {
                             </div>
                             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                                    <video autoPlay loop muted src='./museic-video.mp4' className="w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+                                    <video autoPlay loop muted src='../museic-video.mp4' className="w-[37rem] max-w-none rounded-2xl object-cover" />
                                 </div>
                                 <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                                     <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                                         <img
                                             alt="Museic Screenshot 2"
-                                            src="./museic-screenshot-2.png"
+                                            src="../museic-screenshot-2.png"
                                             className="w-[24rem] max-w-none flex-none rounded-2xl object-cover"
                                         />
                                     </div>
                                     <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                                         <img
                                             alt="Museic Screenshot 1"
-                                            src="./museic-screenshot-1.png"
-                                            className="w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                                            src="../museic-screenshot-1.png"
+                                            className="w-[37rem] max-w-none flex-none rounded-2xl object-cover"
                                         />
                                     </div>
                                     <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                                         <img
                                             alt="Museic Logo"
-                                            src="./museic-logo.png"
+                                            src="../museic-logo.png"
                                             className="w-[24rem] max-w-none object-cover"
                                         />
                                     </div>
@@ -409,27 +380,27 @@ export default function Projects() {
                             </div>
                             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                                    <video autoPlay loop muted src='./ryokanvas-video.mp4' className="w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+                                    <video autoPlay loop muted src='../ryokanvas-video.mp4' className="w-[37rem] max-w-none rounded-2xl object-cover" />
                                 </div>
                                 <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                                     <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                                         <img
                                             alt="RyoKanvas Screenshot 2"
-                                            src="./ryokanvas-screenshot-2.png"
+                                            src="../ryokanvas-screenshot-2.png"
                                             className="w-[24rem] max-w-none flex-none rounded-2xl object-cover"
                                         />
                                     </div>
                                     <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                                         <img
                                             alt="RyoKanvas Screenshot 1"
-                                            src="./ryokanvas-screenshot-1.png"
-                                            className="w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                                            src="../ryokanvas-screenshot-1.png"
+                                            className="w-[37rem] max-w-none flex-none rounded-2xl object-cover"
                                         />
                                     </div>
                                     <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                                         <img
                                             alt="RyoKanvas Logo"
-                                            src="./ryokanvas-logo.png"
+                                            src="../ryokanvas-logo.png"
                                             className="w-[24rem] max-w-none rounded-2xl object-cover"
                                         />
                                     </div>
