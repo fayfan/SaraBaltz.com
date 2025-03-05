@@ -1211,6 +1211,7 @@ const projects = withComponentProps(function Projects() {
               children: [/* @__PURE__ */ jsx("div", {
                 className: "w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end",
                 children: /* @__PURE__ */ jsx("video", {
+                  preload: "auto",
                   autoPlay: true,
                   loop: true,
                   muted: true,
@@ -1371,6 +1372,7 @@ const projects = withComponentProps(function Projects() {
               children: [/* @__PURE__ */ jsx("div", {
                 className: "w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end",
                 children: /* @__PURE__ */ jsx("video", {
+                  preload: "auto",
                   autoPlay: true,
                   loop: true,
                   muted: true,
@@ -1530,6 +1532,7 @@ const projects = withComponentProps(function Projects() {
               children: [/* @__PURE__ */ jsx("div", {
                 className: "w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end",
                 children: /* @__PURE__ */ jsx("video", {
+                  preload: "auto",
                   autoPlay: true,
                   loop: true,
                   muted: true,
@@ -2179,7 +2182,7 @@ const route4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   __proto__: null,
   default: contact
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-lXDMAOaW.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-BI3FKWtl.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js", "/assets/with-props-Vsvj35UN.js"], "css": ["/assets/root-DC5BRhn8.css"] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-_wo-fDw7.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/projects": { "id": "routes/projects", "parentId": "root", "path": "/projects", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/projects-CoEOZcsl.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/resume": { "id": "routes/resume", "parentId": "root", "path": "/resume", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/resume-52kd3plT.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-BkB9cjBO.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] } }, "url": "/assets/manifest-fdf192d6.js", "version": "fdf192d6" };
+const serverManifest = { "entry": { "module": "/assets/entry.client-lXDMAOaW.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-DJoZ7Dfr.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js", "/assets/with-props-Vsvj35UN.js"], "css": ["/assets/root-DDufRQPE.css"] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-_wo-fDw7.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/projects": { "id": "routes/projects", "parentId": "root", "path": "/projects", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/projects-CWbgUkMm.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/resume": { "id": "routes/resume", "parentId": "root", "path": "/resume", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/resume-52kd3plT.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-BkB9cjBO.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] } }, "url": "/assets/manifest-373fa324.js", "version": "373fa324" };
 const assetsBuildDirectory = "build/client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false };
