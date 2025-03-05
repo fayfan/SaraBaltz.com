@@ -52,6 +52,16 @@ const timeline = [
     date: 'Feb 2023 – Sept 2024',
     dateTime: '2023-02',
   },
+  {
+    name: 'App Academy – Software Engineering Track (Full-Time)',
+    date: 'Sept 2024 – March 2025',
+    dateTime: '2024-09',
+  },
+  {
+    name: 'On the hunt for an internship or job!',
+    date: 'March 2025 – current',
+    dateTime: '2025-03',
+  },
 ];
 const jobOpenings = [
   {
@@ -239,10 +249,11 @@ export default function About() {
               </h1>
               <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                 <p className="text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non
-                  deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                  I am a former clinical researcher now transitioning to software engineering with a proven
+                  aptitude for teamwork & problem solving. I am eager to leverage my driven, detail-oriented
+                  mindset & passion for continuous learning to build robust & user-friendly applications,
+                  contribute to innovative teams, and deliver high-quality, impactful software solutions
+                  that enhance user experiences.
                 </p>
               </div>
               <img
