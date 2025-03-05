@@ -158,7 +158,7 @@ export default function Resume() {
                         className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white ring-1 shadow-xl shadow-blue-600/10 ring-blue-50 sm:-mr-80 lg:-mr-96"
                     />
                     <div className="mx-auto max-w-7xl px-6 py-24 sm:py-30 lg:px-8">
-                        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none ">
+                        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
                             <h1 style={{ color: 'cornflowerblue' }} className="max-w-2xl text-5xl font-semibold tracking-tight text-balance sm:text-7xl ">
                                 Resume
                             </h1>
@@ -170,7 +170,7 @@ export default function Resume() {
             </main>
 
             {/* Footer */}
-            <footer className="mx-auto mt-24 max-w-7xl px-6 sm:mt-30 lg:px-8">
+            <footer className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="border-t border-gray-900/10 pt-20 pb-8 sm:pt-24">
                     <div className="xl:grid xl:grid-cols-1 xl:gap-8">
                         <div className="grid grid-cols-1 gap-8 xl:col-span-2">
