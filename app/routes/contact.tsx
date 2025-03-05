@@ -94,7 +94,7 @@ export default function Contact() {
                             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
                         >
                             <span className="sr-only">Open main menu</span>
-                            <Bars3Icon aria-hidden="true" className="size-6 hover:text-blue-400" />
+                            <Bars3Icon aria-hidden="true" className="size-6 hover:text-blue-400 hover:cursor-pointer" />
                         </button>
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
@@ -132,8 +132,8 @@ export default function Contact() {
                                 onClick={() => setMobileMenuOpen(false)}
                                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
                             >
-                                <span className="sr-only">Close menu</span>
-                                <XMarkIcon aria-hidden="true" className="size-6 hover:text-blue-400" />
+                                <span className="sr-only">Close main menu</span>
+                                <XMarkIcon aria-hidden="true" className="size-6 hover:text-blue-400 hover:cursor-pointer" />
                             </button>
                         </div>
                         <div className="mt-6 flow-root">
@@ -201,7 +201,7 @@ export default function Contact() {
                             </div>
                             <img
                                 alt=""
-                                src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
+                                src="../contact-photo.jpg"
                                 className="mt-10 aspect-6/5 w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
                             />
                         </div>
