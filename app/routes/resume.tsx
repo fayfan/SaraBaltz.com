@@ -1,6 +1,14 @@
+import type { Route } from "./+types/about";
 import { useState } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+
+export function meta({ }: Route.MetaArgs) {
+    return [
+        { title: "Sara Baltz - Resume" },
+        { name: "description", content: "Have a look at my resume!" },
+    ];
+}
 
 const navigation = [
     { name: 'About', href: '/' },

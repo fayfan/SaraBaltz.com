@@ -1,16 +1,14 @@
-// import type { Route } from "./+types/about";
-// import { Welcome } from "../welcome/welcome";
-
+import type { Route } from "./+types/about";
 import { useState } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
-// export function meta({}: Route.MetaArgs) {
-//   return [
-//     { title: "New React Router App" },
-//     { name: "description", content: "Welcome to React Router!" },
-//   ];
-// }
+export function meta({ }: Route.MetaArgs) {
+  return [
+    { title: "Sara Baltz - About" },
+    { name: "description", content: "Welcome to my website!" },
+  ];
+}
 
 const navigation = [
   { name: 'About', href: '/' },
