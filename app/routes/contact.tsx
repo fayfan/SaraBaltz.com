@@ -184,7 +184,7 @@ export default function Contact() {
                         className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white ring-1 shadow-xl shadow-blue-600/10 ring-blue-50 sm:-mr-80 lg:-mr-96"
                     />
                     <div className="mx-auto max-w-7xl px-6 py-24 sm:py-30 lg:px-8">
-                        <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-8 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
+                        <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-8 lg:gap-y-8 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                             <h1 style={{ color: 'cornflowerblue' }} className="max-w-2xl text-5xl font-semibold tracking-tight text-balance sm:text-7xl lg:col-span-2 xl:col-auto">
                                 Contact
                             </h1>
@@ -193,7 +193,7 @@ export default function Contact() {
                                     {/* Logo cloud */}
                                     <div className="mx-auto max-w-7xl">
                                         <div className="relative isolate overflow-hidden bg-blue-200 px-6 py-24 text-center shadow-2xl rounded-3xl sm:px-16">
-                                            <p className="text-white mx-auto max-w-2xl text-xl font-bold tracking-tight sm:text-2xl">
+                                            <p className="text-white mx-auto max-w-2xl text-xl font-bold tracking-tight sm:text-2xl xl:min-w-md">
                                                 LinkedIn: <a href="https://www.linkedin.com/in/sarabaltz" className="hover:text-blue-50" >in/sarabaltz</a>
                                             </p>
                                             <p className="text-white mt-6 mx-auto max-w-2xl text-xl font-bold tracking-tight sm:text-2xl">
@@ -224,7 +224,7 @@ export default function Contact() {
                             <img
                                 alt=""
                                 src="../contact-photo.jpg"
-                                className="mt-10 aspect-6/5 w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
+                                className="mt-10 aspect-6/5 w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-42"
                             />
                         </div>
                     </div>
