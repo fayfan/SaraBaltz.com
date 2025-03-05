@@ -216,7 +216,7 @@ export default function Projects() {
                             </div>
                             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                                    <video autoPlay loop muted src='../arkbites-video.mp4' className="w-[37rem] max-w-none rounded-2xl object-cover" />
+                                    <video preload='auto' autoPlay loop muted src='../arkbites-video.mp4' className="w-[37rem] max-w-none rounded-2xl object-cover" />
                                 </div>
                                 <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                                     <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
@@ -298,7 +298,7 @@ export default function Projects() {
                             </div>
                             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                                    <video autoPlay loop muted src='../museic-video.mp4' className="w-[37rem] max-w-none rounded-2xl object-cover" />
+                                    <video preload='auto' autoPlay loop muted src='../museic-video.mp4' className="w-[37rem] max-w-none rounded-2xl object-cover" />
                                 </div>
                                 <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                                     <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
@@ -380,7 +380,7 @@ export default function Projects() {
                             </div>
                             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                                    <video autoPlay loop muted src='../ryokanvas-video.mp4' className="w-[37rem] max-w-none rounded-2xl object-cover" />
+                                    <video preload='auto' autoPlay loop muted src='../ryokanvas-video.mp4' className="w-[37rem] max-w-none rounded-2xl object-cover" />
                                 </div>
                                 <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                                     <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
