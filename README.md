@@ -1,6 +1,6 @@
 # SaraBaltz.com
 
-Welcome to the repository for my personal portfolio website, SaraBaltz.com!
+Welcome to the repository for my personal portfolio website!
 
 ## About
 
