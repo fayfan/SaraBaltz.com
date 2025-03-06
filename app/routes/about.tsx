@@ -7,6 +7,9 @@ export function meta({ }: Route.MetaArgs) {
   return [
     { title: "Sara Baltz - About" },
     { name: "description", content: "Welcome to my website!" },
+    { property: "og:title", content: "Sara Baltz - Full-Stack Software Engineer" },
+    { property: "og:description", content: "I am a software engineer & former clinical researcher with a proven aptitude for teamwork & problem solving. I am eager to leverage my driven, detail-oriented mindset & passion for continuous learning to build robust & user-friendly applications, contribute to innovative teams, and deliver high-quality, impactful software solutions that enhance user experiences." },
+    { property: "og:url", content: "https://sarabaltz.com" },
   ];
 }
 
@@ -265,11 +268,10 @@ export default function About() {
               </h1>
               <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                 <p className="text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-                  I am a former clinical researcher now transitioning to software engineering with a proven
-                  aptitude for teamwork & problem solving. I am eager to leverage my driven, detail-oriented
-                  mindset & passion for continuous learning to build robust & user-friendly applications,
-                  contribute to innovative teams, and deliver high-quality, impactful software solutions
-                  that enhance user experiences.
+                  I am a software engineer & former clinical researcher with a proven aptitude for teamwork
+                  & problem solving. I am eager to leverage my driven, detail-oriented mindset & passion for
+                  continuous learning to build robust & user-friendly applications, contribute to innovative
+                  teams, and deliver high-quality, impactful software solutions that enhance user experiences.
                 </p>
               </div>
               <img

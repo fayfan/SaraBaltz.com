@@ -7,6 +7,9 @@ export function meta({ }: Route.MetaArgs) {
     return [
         { title: "Sara Baltz - Resume" },
         { name: "description", content: "Have a look at my resume!" },
+        { property: "og:title", content: "Sara Baltz - Full-Stack Software Engineer" },
+        { property: "og:description", content: "I am a software engineer & former clinical researcher with a proven aptitude for teamwork & problem solving. I am eager to leverage my driven, detail-oriented mindset & passion for continuous learning to build robust & user-friendly applications, contribute to innovative teams, and deliver high-quality, impactful software solutions that enhance user experiences." },
+        { property: "og:url", content: "https://sarabaltz.com/resume" },
     ];
 }
 
