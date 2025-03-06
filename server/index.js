@@ -80,6 +80,9 @@ const links = () => [{
 }, {
   rel: "stylesheet",
   href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+}, {
+  rel: "stylesheet",
+  href: "https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap"
 }];
 function Layout({
   children
@@ -186,7 +189,7 @@ const timeline = [{
   date: "Sept 2024 – March 2025",
   dateTime: "2024-09"
 }, {
-  name: "On the hunt for an internship or job!",
+  name: "On the hunt for a software engineering internship or job!",
   date: "March 2025 – current",
   dateTime: "2025-03"
 }];
@@ -431,6 +434,41 @@ const about = withComponentProps(function About() {
               children: item.description
             })]
           }, item.name))
+        })
+      }), /* @__PURE__ */ jsx("div", {
+        className: "flex justify-center mx-auto mt-30 max-w-7xl px-6 lg:px-8",
+        children: /* @__PURE__ */ jsxs("div", {
+          className: "flex justify-center items-center gap-x-4 overflow-clip",
+          children: [/* @__PURE__ */ jsxs("div", {
+            className: "relative flex justify-end items-center gap-x-4",
+            children: [/* @__PURE__ */ jsx("div", {
+              className: "absolute left-0 top-0 h-full w-[33%] bg-gradient-to-r from-white to-transparent pointer-events-none"
+            }), /* @__PURE__ */ jsx("img", {
+              src: "../ryokanvas-screenshot-2.png",
+              className: "object-cover h-30 rounded-md border-solid border-1 border-gray-200"
+            }), /* @__PURE__ */ jsx("img", {
+              src: "../arkbites-screenshot-1.png",
+              className: "object-cover h-30 rounded-md"
+            })]
+          }), /* @__PURE__ */ jsx("h2", {
+            className: "flex-shrink-0 text-blue-400 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl lg:text-6xl",
+            children: /* @__PURE__ */ jsx("a", {
+              href: "/projects",
+              className: "hover:text-blue-300",
+              children: "Check out my projects!"
+            })
+          }), /* @__PURE__ */ jsxs("div", {
+            className: "relative flex justify-start items-center gap-x-4",
+            children: [/* @__PURE__ */ jsx("img", {
+              src: "../ryokanvas-screenshot-1.png",
+              className: "object-cover h-30 rounded-md border-solid border-1 border-gray-200"
+            }), /* @__PURE__ */ jsx("img", {
+              src: "../museic-screenshot-1.png",
+              className: "object-cover h-30 rounded-md"
+            }), /* @__PURE__ */ jsx("div", {
+              className: "absolute right-0 top-0 h-full w-[33%] bg-gradient-to-l from-white to-transparent pointer-events-none"
+            })]
+          })]
         })
       }), /* @__PURE__ */ jsx("div", {
         className: "mx-auto mt-30 max-w-7xl sm:px-6 lg:px-8",
@@ -1205,7 +1243,7 @@ const projects = withComponentProps(function Projects() {
               children: [/* @__PURE__ */ jsxs("div", {
                 className: "flex flex-col lg:flex-row justify-between",
                 children: [/* @__PURE__ */ jsx("h2", {
-                  className: "mb-1 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl",
+                  className: "mb-2 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl",
                   children: "Arkbites"
                 }), /* @__PURE__ */ jsxs("div", {
                   className: "flex items-end lg:mb-1",
@@ -1324,8 +1362,19 @@ const projects = withComponentProps(function Projects() {
                     })
                   })]
                 })]
+              }), /* @__PURE__ */ jsxs("div", {
+                className: "mt-2 text-lg",
+                children: [/* @__PURE__ */ jsx("a", {
+                  href: "https://arkbites.com",
+                  className: "text-blue-400 hover:text-blue-300",
+                  children: "Live Website"
+                }), " | ", /* @__PURE__ */ jsx("a", {
+                  href: "https://github.com/fayfan/Arkbites",
+                  className: "text-blue-400 hover:text-blue-300",
+                  children: "GitHub"
+                })]
               }), /* @__PURE__ */ jsx("p", {
-                className: "mt-6 text-xl/8 text-gray-600",
+                className: "mt-4 text-xl/8 text-gray-600",
                 children: "Arkbites is website with tools for helping players of the mobile game Arknights. Players can create an account to track their operators & materials, make squads with their operators, & favorite their operators."
               })]
             }), /* @__PURE__ */ jsxs("div", {
@@ -1379,7 +1428,7 @@ const projects = withComponentProps(function Projects() {
               children: [/* @__PURE__ */ jsxs("div", {
                 className: "flex flex-col lg:flex-row justify-between",
                 children: [/* @__PURE__ */ jsx("h2", {
-                  className: "mb-1 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl",
+                  className: "mb-2 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl",
                   children: "Museic"
                 }), /* @__PURE__ */ jsxs("div", {
                   className: "flex items-end lg:mb-1",
@@ -1512,8 +1561,19 @@ const projects = withComponentProps(function Projects() {
                     })
                   })]
                 })]
+              }), /* @__PURE__ */ jsxs("div", {
+                className: "mt-2 text-lg",
+                children: [/* @__PURE__ */ jsx("a", {
+                  href: "https://museic.onrender.com/",
+                  className: "text-blue-400 hover:text-blue-300",
+                  children: "Live Website"
+                }), " | ", /* @__PURE__ */ jsx("a", {
+                  href: "https://github.com/miaohua897/Mod6_project",
+                  className: "text-blue-400 hover:text-blue-300",
+                  children: "GitHub"
+                })]
               }), /* @__PURE__ */ jsx("p", {
-                className: "mt-6 text-xl/8 text-gray-600",
+                className: "mt-4 text-xl/8 text-gray-600",
                 children: "Museic is a music service that allows users to upload their own songs, put their songs into albums, & create playlists."
               })]
             }), /* @__PURE__ */ jsxs("div", {
@@ -1567,7 +1627,7 @@ const projects = withComponentProps(function Projects() {
               children: [/* @__PURE__ */ jsxs("div", {
                 className: "flex flex-col lg:flex-row justify-between",
                 children: [/* @__PURE__ */ jsx("h2", {
-                  className: "mb-1 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl",
+                  className: "mb-2 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl",
                   children: "RyoKanvas"
                 }), /* @__PURE__ */ jsxs("div", {
                   className: "flex items-end lg:mb-1",
@@ -1699,8 +1759,19 @@ const projects = withComponentProps(function Projects() {
                     })
                   })]
                 })]
+              }), /* @__PURE__ */ jsxs("div", {
+                className: "mt-2 text-lg",
+                children: [/* @__PURE__ */ jsx("a", {
+                  href: "https://ryokanvas.onrender.com/",
+                  className: "text-blue-400 hover:text-blue-300",
+                  children: "Live Website"
+                }), " | ", /* @__PURE__ */ jsx("a", {
+                  href: "https://github.com/fayfan/RyoKanvas",
+                  className: "text-blue-400 hover:text-blue-300",
+                  children: "GitHub"
+                })]
               }), /* @__PURE__ */ jsx("p", {
-                className: "mt-6 text-xl/8 text-gray-600",
+                className: "mt-4 text-xl/8 text-gray-600",
                 children: "RyoKanvas is a booking application that allows users to reserve spots. Users can leave a review on any spot they have previously visited. Users can also create their own spots for other users to reserve."
               })]
             }), /* @__PURE__ */ jsxs("div", {
@@ -2448,7 +2519,7 @@ const route4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: contact,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-lXDMAOaW.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-BgB4j_4C.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js", "/assets/with-props-Vsvj35UN.js"], "css": ["/assets/root-vp9WbgT1.css"] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-D3XwqRtx.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/projects": { "id": "routes/projects", "parentId": "root", "path": "/projects", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/projects-hOQXdPE0.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/resume": { "id": "routes/resume", "parentId": "root", "path": "/resume", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/resume-CVdWvXQY.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-CATXJcAz.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] } }, "url": "/assets/manifest-3fb4a982.js", "version": "3fb4a982" };
+const serverManifest = { "entry": { "module": "/assets/entry.client-lXDMAOaW.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-DtocxV72.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js", "/assets/with-props-Vsvj35UN.js"], "css": ["/assets/root-CdDAy098.css"] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-DsoX4Cg8.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/projects": { "id": "routes/projects", "parentId": "root", "path": "/projects", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/projects-DZ4BD2px.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/resume": { "id": "routes/resume", "parentId": "root", "path": "/resume", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/resume-CVdWvXQY.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-CATXJcAz.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] } }, "url": "/assets/manifest-32f594ce.js", "version": "32f594ce" };
 const assetsBuildDirectory = "build/client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false };
