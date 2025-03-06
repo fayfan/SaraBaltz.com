@@ -1,10 +1,10 @@
 # SaraBaltz.com
 
-Welcome to the repository for my personal portfolio website!
+SaraBaltz.com is a website for showcasing my skills & projects as a full-stack software engineer. It's designed to provide a clear & concise overview of my experience, abilities, & passion for software development.
 
-## About
+**[🔭 Click here to visit SaraBaltz.com!](https://sarabaltz.com/)**
 
-This website showcases my skills & projects as a full-stack software engineer. It's designed to provide a clear & concise overview of my experience, abilities, & passion for software development.
+![SaraBaltz.com](https://github.com/user-attachments/assets/c7e19598-14b8-4f9c-8e7e-6ad0c8b3770a)
 
 ## Features
 
