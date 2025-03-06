@@ -59,7 +59,7 @@ const timeline = [
     dateTime: '2024-09',
   },
   {
-    name: 'On the hunt for an internship or job!',
+    name: 'On the hunt for a software engineering internship or job!',
     date: 'March 2025 – current',
     dateTime: '2025-03',
   },
@@ -315,6 +315,27 @@ export default function About() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Projects */}
+        <div className="flex justify-center mx-auto mt-30 max-w-7xl px-6 lg:px-8">
+          <div className="flex justify-center items-center gap-x-4 overflow-clip">
+            <div className="relative flex justify-end items-center gap-x-4">
+              <div className="absolute left-0 top-0 h-full w-[33%] bg-gradient-to-r from-white to-transparent pointer-events-none"></div>
+              <img src="../ryokanvas-screenshot-2.png" className="object-cover h-30 rounded-md border-solid border-1 border-gray-200"></img>
+              <img src="../arkbites-screenshot-1.png" className="object-cover h-30 rounded-md"></img>
+            </div>
+            <h2 className="flex-shrink-0 text-blue-400 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl lg:text-6xl">
+              <a href='/projects' className="hover:text-blue-300">
+                Check out my projects!
+              </a>
+            </h2>
+            <div className="relative flex justify-start items-center gap-x-4">
+              <img src="../ryokanvas-screenshot-1.png" className="object-cover h-30 rounded-md border-solid border-1 border-gray-200"></img>
+              <img src="../museic-screenshot-1.png" className="object-cover h-30 rounded-md"></img>
+              <div className="absolute right-0 top-0 h-full w-[33%] bg-gradient-to-l from-white to-transparent pointer-events-none"></div>
+            </div>
           </div>
         </div>
 
@@ -574,7 +595,8 @@ export default function About() {
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="mb-[0.5rem] text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-              Want to know more about me?</h2>
+              Want to know more about me?
+            </h2>
             <h2 className="text-blue-400 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">
               <a href='/contact' className="hover:text-blue-300">
                 Let's connect!

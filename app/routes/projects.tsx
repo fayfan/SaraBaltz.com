@@ -202,7 +202,7 @@ export default function Projects() {
                         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8">
                             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
                                 <div className='flex flex-col lg:flex-row justify-between'>
-                                    <h2 className="mb-1 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                                    <h2 className="mb-2 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                                         Arkbites
                                     </h2>
                                     <div className='flex items-end lg:mb-1'>
@@ -256,7 +256,10 @@ export default function Projects() {
                                         </a>
                                     </div>
                                 </div>
-                                <p className="mt-6 text-xl/8 text-gray-600">
+                                <div className="mt-2 text-lg">
+                                    <a href='https://arkbites.com' className="text-blue-400 hover:text-blue-300">Live Website</a> | <a href='https://github.com/fayfan/Arkbites' className="text-blue-400 hover:text-blue-300">GitHub</a>
+                                </div>
+                                <p className="mt-4 text-xl/8 text-gray-600">
                                     Arkbites is website with tools for helping players of the mobile game Arknights. Players can create an account to track their operators & materials, make squads with their operators, & favorite their operators.
                                 </p>
                             </div>
@@ -296,7 +299,7 @@ export default function Projects() {
                         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8">
                             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
                                 <div className='flex flex-col lg:flex-row justify-between'>
-                                    <h2 className="mb-1 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                                    <h2 className="mb-2 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                                         Museic
                                     </h2>
                                     <div className='flex items-end lg:mb-1'>
@@ -356,7 +359,10 @@ export default function Projects() {
                                         </a>
                                     </div>
                                 </div>
-                                <p className="mt-6 text-xl/8 text-gray-600">
+                                <div className="mt-2 text-lg">
+                                    <a href='https://museic.onrender.com/' className="text-blue-400 hover:text-blue-300">Live Website</a> | <a href='https://github.com/miaohua897/Mod6_project' className="text-blue-400 hover:text-blue-300">GitHub</a>
+                                </div>
+                                <p className="mt-4 text-xl/8 text-gray-600">
                                     Museic is a music service that allows users to upload their own songs, put their songs into albums, & create playlists.
                                 </p>
                             </div>
@@ -396,7 +402,7 @@ export default function Projects() {
                         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8">
                             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
                                 <div className='flex flex-col lg:flex-row justify-between'>
-                                    <h2 className="mb-1 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                                    <h2 className="mb-2 lg:mb-0 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                                         RyoKanvas
                                     </h2>
                                     <div className='flex items-end lg:mb-1'>
@@ -456,7 +462,10 @@ export default function Projects() {
                                         </a>
                                     </div>
                                 </div>
-                                <p className="mt-6 text-xl/8 text-gray-600">
+                                <div className="mt-2 text-lg">
+                                    <a href='https://ryokanvas.onrender.com/' className="text-blue-400 hover:text-blue-300">Live Website</a> | <a href='https://github.com/fayfan/RyoKanvas' className="text-blue-400 hover:text-blue-300">GitHub</a>
+                                </div>
+                                <p className="mt-4 text-xl/8 text-gray-600">
                                     RyoKanvas is a booking application that allows users to reserve spots. Users can leave a review on any spot they have previously visited. Users can also create their own spots for other users to reserve.
                                 </p>
                             </div>
