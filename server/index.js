@@ -133,6 +133,15 @@ function meta$3({}) {
   }, {
     name: "description",
     content: "Welcome to my website!"
+  }, {
+    property: "og:title",
+    content: "Sara Baltz - Full-Stack Software Engineer"
+  }, {
+    property: "og:description",
+    content: "I am a software engineer & former clinical researcher with a proven aptitude for teamwork & problem solving. I am eager to leverage my driven, detail-oriented mindset & passion for continuous learning to build robust & user-friendly applications, contribute to innovative teams, and deliver high-quality, impactful software solutions that enhance user experiences."
+  }, {
+    property: "og:url",
+    content: "https://sarabaltz.com"
   }];
 }
 const navigation$3 = [{
@@ -378,7 +387,7 @@ const about = withComponentProps(function About() {
               className: "mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1",
               children: /* @__PURE__ */ jsx("p", {
                 className: "text-lg font-medium text-pretty text-gray-500 sm:text-xl/8",
-                children: "I am a former clinical researcher now transitioning to software engineering with a proven aptitude for teamwork & problem solving. I am eager to leverage my driven, detail-oriented mindset & passion for continuous learning to build robust & user-friendly applications, contribute to innovative teams, and deliver high-quality, impactful software solutions that enhance user experiences."
+                children: "I am a software engineer & former clinical researcher with a proven aptitude for teamwork & problem solving. I am eager to leverage my driven, detail-oriented mindset & passion for continuous learning to build robust & user-friendly applications, contribute to innovative teams, and deliver high-quality, impactful software solutions that enhance user experiences."
               })
             }), /* @__PURE__ */ jsx("img", {
               alt: "",
@@ -963,6 +972,15 @@ function meta$2({}) {
   }, {
     name: "description",
     content: "Check out my projects!"
+  }, {
+    property: "og:title",
+    content: "Sara Baltz - Full-Stack Software Engineer"
+  }, {
+    property: "og:description",
+    content: "I am a software engineer & former clinical researcher with a proven aptitude for teamwork & problem solving. I am eager to leverage my driven, detail-oriented mindset & passion for continuous learning to build robust & user-friendly applications, contribute to innovative teams, and deliver high-quality, impactful software solutions that enhance user experiences."
+  }, {
+    property: "og:url",
+    content: "https://sarabaltz.com/projects"
   }];
 }
 const navigation$2 = [{
@@ -1793,6 +1811,15 @@ function meta$1({}) {
   }, {
     name: "description",
     content: "Have a look at my resume!"
+  }, {
+    property: "og:title",
+    content: "Sara Baltz - Full-Stack Software Engineer"
+  }, {
+    property: "og:description",
+    content: "I am a software engineer & former clinical researcher with a proven aptitude for teamwork & problem solving. I am eager to leverage my driven, detail-oriented mindset & passion for continuous learning to build robust & user-friendly applications, contribute to innovative teams, and deliver high-quality, impactful software solutions that enhance user experiences."
+  }, {
+    property: "og:url",
+    content: "https://sarabaltz.com/resume"
   }];
 }
 const navigation$1 = [{
@@ -2084,6 +2111,15 @@ function meta({}) {
   }, {
     name: "description",
     content: "Let's get in touch!"
+  }, {
+    property: "og:title",
+    content: "Sara Baltz - Full-Stack Software Engineer"
+  }, {
+    property: "og:description",
+    content: "I am a software engineer & former clinical researcher with a proven aptitude for teamwork & problem solving. I am eager to leverage my driven, detail-oriented mindset & passion for continuous learning to build robust & user-friendly applications, contribute to innovative teams, and deliver high-quality, impactful software solutions that enhance user experiences."
+  }, {
+    property: "og:url",
+    content: "https://sarabaltz.com/contact"
   }];
 }
 const navigation = [{
@@ -2412,7 +2448,7 @@ const route4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: contact,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-lXDMAOaW.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-ffMb3n88.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js", "/assets/with-props-Vsvj35UN.js"], "css": ["/assets/root-DzLgGce3.css"] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-ClkCLZQb.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/projects": { "id": "routes/projects", "parentId": "root", "path": "/projects", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/projects-C6ciGexo.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/resume": { "id": "routes/resume", "parentId": "root", "path": "/resume", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/resume-B93yjNCK.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-CSjZOji0.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] } }, "url": "/assets/manifest-bc118e7e.js", "version": "bc118e7e" };
+const serverManifest = { "entry": { "module": "/assets/entry.client-lXDMAOaW.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-BhU10qIb.js", "imports": ["/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/index-B0BRSZ--.js", "/assets/with-props-Vsvj35UN.js"], "css": ["/assets/root-CXCqSzLg.css"] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-D3XwqRtx.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/projects": { "id": "routes/projects", "parentId": "root", "path": "/projects", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/projects-hOQXdPE0.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/resume": { "id": "routes/resume", "parentId": "root", "path": "/resume", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/resume-CVdWvXQY.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-CATXJcAz.js", "imports": ["/assets/with-props-Vsvj35UN.js", "/assets/chunk-IR6S3I6Y-D7UtmayQ.js", "/assets/XMarkIcon-CPYbhe72.js", "/assets/index-B0BRSZ--.js"], "css": [] } }, "url": "/assets/manifest-f77f0fb8.js", "version": "f77f0fb8" };
 const assetsBuildDirectory = "build/client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false };
