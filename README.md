@@ -1,18 +1,31 @@
-# Welcome to React Router!
+# SaraBaltz.com
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Welcome to the repository for my personal portfolio website, SaraBaltz.com!
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## About
+
+This website showcases my skills & projects as a full-stack software engineer. It's designed to provide a clear & concise overview of my experience, abilities, & passion for software development.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+* **Responsive Design:** Ensures optimal viewing experience across various devices (desktops, tablets, & mobile phones).
+* **Projects Showcase:** Highlights my key projects with descriptions, technologies used, & links to live demos or repositories.
+* **About Me:** Provides a brief introduction & background, showcasing my personality & career goals.
+* **Resume:** Provides a PDF copy of my most up-to-date resume for viewing &/or download.
+* **Contact Information:** Offers easy ways to get in touch with me.
+
+## Technologies Used
+
+* **Frontend:**
+    * [List your frontend technologies, e.g., HTML5, CSS3, JavaScript, React, Vue.js, Angular]
+    * [If using CSS frameworks, list them, e.g., Tailwind CSS, Bootstrap, Material UI]
+* **Backend (if applicable):**
+    * [List your backend technologies, e.g., Node.js, Python/Django, Ruby on Rails, Java/Spring]
+    * [List your database technologies, e.g., PostgreSQL, MySQL, MongoDB]
+* **Deployment:**
+    * [List your deployment methods, e.g., Netlify, Vercel, AWS, Heroku]
+* **Other:**
+    * [List any other relevant technologies or tools, e.g., Git, GitHub, Figma, Webpack]
 
 ## Getting Started
 
@@ -52,7 +65,7 @@ This template includes three Dockerfiles optimized for different package manager
 - `Dockerfile.pnpm` - for pnpm
 - `Dockerfile.bun` - for bun
 
-To build and run using Docker:
+To build & run using Docker:
 
 ```bash
 # For npm
@@ -91,10 +104,23 @@ Make sure to deploy the output of `npm run build`
 │   └── server/    # Server-side code
 ```
 
-## Styling
+## Usage
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+* Feel free to browse the website to learn more about my skills & projects.
+* Click on project links to explore live demos or view source code on GitHub.
+* Use the provided contact information to reach out to me.
 
----
+## Contributing
 
-Built with ❤️ using React Router.
+As this is my personal portfolio, contributions are generally not accepted. However, if you have any suggestions or feedback, please feel free to contact me.
+
+## Future Enhancements
+
+* Add more projects as I complete them.
+* Optimize website performance.
+
+## Contact
+
+* Email: [sara@sarabaltz.com](mailto:sara@sarabaltz.com)
+* LinkedIn: [linkedin.com/in/sarabaltz](https://www.linkedin.com/in/sarabaltz)
+* GitHub: [github.com/fayfan](https://github.com/fayfan)
