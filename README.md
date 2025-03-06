@@ -16,16 +16,9 @@ This website showcases my skills & projects as a full-stack software engineer. I
 
 ## Technologies Used
 
-* **Frontend:**
-    * [List your frontend technologies, e.g., HTML5, CSS3, JavaScript, React, Vue.js, Angular]
-    * [If using CSS frameworks, list them, e.g., Tailwind CSS, Bootstrap, Material UI]
-* **Backend (if applicable):**
-    * [List your backend technologies, e.g., Node.js, Python/Django, Ruby on Rails, Java/Spring]
-    * [List your database technologies, e.g., PostgreSQL, MySQL, MongoDB]
-* **Deployment:**
-    * [List your deployment methods, e.g., Netlify, Vercel, AWS, Heroku]
-* **Other:**
-    * [List any other relevant technologies or tools, e.g., Git, GitHub, Figma, Webpack]
+| Frontend                                         | Backend                                          |
+|--------------------------------------------------|--------------------------------------------------|
+| [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/) | [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) |
 
 ## Getting Started
 
